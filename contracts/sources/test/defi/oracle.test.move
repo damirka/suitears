@@ -792,6 +792,7 @@ module suitears::oracle_tests {
     }
 }
 
+
 #[test_only]
 module suitears::pyth_feed_test {
 
@@ -804,6 +805,7 @@ module suitears::pyth_feed_test {
     }
 }
 
+
 #[test_only]
 module suitears::switchboard_feed_test {
 
@@ -815,6 +817,7 @@ module suitears::switchboard_feed_test {
         oracle::report(request, SwitchboardFeed {}, timestamp, price, decimals);
     }
 }
+
 
 #[test_only]
 module suitears::supra_feed_test {
