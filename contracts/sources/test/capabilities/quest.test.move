@@ -73,6 +73,7 @@ module suitears::quest_tests {
         quest::finish(q);
     }
 }
+
 #[test_only]
 module suitears::task_one {
 
@@ -84,6 +85,7 @@ module suitears::task_one {
         quest::complete(self, Witness {});
     }
 }
+
 #[test_only]
 module suitears::task_two {
 
